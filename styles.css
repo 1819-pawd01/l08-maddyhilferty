@@ -1,0 +1,88 @@
+/*
+* Maddy Hilferty
+* 11/20
+* home page
+*/
+
+/* The universal selector */
+* {
+}
+/* Body and attributes here */
+
+body { 
+    color: burlywood;
+    background-color: darkslategrey;
+    font-family: 'nobile';
+}
+header, footer, main {
+    text-align: center;
+}
+
+footer {
+    font-size: 15px;
+}
+
+main {
+    font-size: 18px;
+}
+
+header {
+    color: brown;
+    font-size: 18px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Faster One';
+}
+
+h3 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: 200;
+}
+
+p {
+    text-indent: 25px;
+}
+
+.title {
+    text-decoration: underline overline;
+}
+
+img {
+   width: 200px;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.logo {
+    width: 400px;
+}
+
+a:link {
+    color: cornflowerblue;
+    text-decoration: underline overline;
+    border-color: brown;
+    
+}
+
+a:visited {
+    color: coral;
+    text-decoration: underline;
+}
+
+a:hover a:focus {
+    color: darkgoldenrod;
+    text-decoration: underline;
+}
+
+a:active {
+    color: coral;
+    text-decoration: none;
+}
